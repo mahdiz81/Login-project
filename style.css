@@ -182,44 +182,67 @@ body {
 }
 
 /* responsive */
-
 @media (max-width: 768px) {
   .info-section-right {
-    width: 100%;
-    background-image: none;
-    margin-top: 15px;
+    width: 50%;
+    background-image: none; 
   }
 
+  .btn-Login{
+    margin-bottom: -20px;
+  }
   .social-login button {
     padding: 10px;
-    font-size: 14px;
-  }
-  .login-form h2 {
-    margin-top: 135px;
-    font-size: 30px;
-    font-weight: bold;
+    font-size: 14px; 
+   
   }
 
+  .btn-social {
+    width: 75%; 
+  }
+  .section-blur1-right{
+    position: relative;
+    overflow: hidden;
+    padding: 10px;
+    background-image: url("Rectangle\ 5.png");
+    background-repeat: no-repeat;
+    background-position: center;
+  }
   .section-blur1-right a {
     font-size: 24px;
-    left: 230px;
-    line-height: 40px;
-    word-spacing: -8px;
-    width: 128px;
-    top: 65px;
+    left: 200px; 
+    width: 135px;
+    height: 25px;
+    text-align: justify;
+    top: 20px;
+    line-height: 38px;
+    word-spacing: -0.5rem; 
+    
   }
 
   .img-icon2 {
-    left: 24%;
+    left: 20%;
     transform: translateX(-50%);
-    bottom: 120px;
+    bottom: 100px;
+  
   }
+}
+.social-login {
+  display: flex;
+  flex-direction: column; 
+}
+.social-login p{
+  margin-top: 71px;
 }
 
 @media (min-width: 769px) {
   .social-login {
-    flex-direction: row;
+    flex-direction: row; 
   }
+}
+img {
+  max-width: 100%;
+  height: auto;
 }
 .container {
   display: flex;
@@ -228,6 +251,6 @@ body {
 
 @media (max-width: 768px) {
   .container {
-    flex-direction: column;
+    flex-direction: column; 
   }
 }
