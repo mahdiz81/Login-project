@@ -136,7 +136,7 @@ body {
 }
 
 .info-section-right {
-  flex: 1;
+  
   background-image: url("Rectangle\ 4.png");
   width: 50%;
   display: flex;
@@ -156,6 +156,7 @@ body {
   background-image: url("Rectangle\ 5.png");
   background-repeat: no-repeat;
   background-position: center;
+  
 }
 
 .section-blur1-right a {
@@ -200,30 +201,23 @@ body {
   .btn-social {
     width: 75%; 
   }
-  .section-blur1-right{
-    position: relative;
-    overflow: hidden;
-    padding: 10px;
-    background-image: url("Rectangle\ 5.png");
-    background-repeat: no-repeat;
-    background-position: center;
-  }
+ 
   .section-blur1-right a {
     font-size: 24px;
-    left: 200px; 
-    width: 135px;
+    left: 221px; 
+    width: 130px;
     height: 25px;
     text-align: justify;
-    top: 20px;
+    top: 25px;
     line-height: 38px;
     word-spacing: -0.5rem; 
     
   }
 
   .img-icon2 {
-    left: 20%;
+    left: 24%;
     transform: translateX(-50%);
-    bottom: 100px;
+    bottom: 124px;
   
   }
 }
@@ -241,7 +235,7 @@ body {
   }
 }
 img {
-  max-width: 100%;
+  
   height: auto;
 }
 .container {
